@@ -2,14 +2,21 @@
 # PathForward
 A Graduation project implementing everything from planning to programming and deployment
 
-The plan is a web platform with the purpose to give meaning to those that need it most -- people who are unemployed through matching their skills and interests with suitable social initiatives and companies.
+The plan is a web platform with the purpose to give meaning to those that need it most -- people who are unemployed, through matching their skills and interests with suitable social initiatives and companies.
 
-Another planned function is to have a specific housing service implemented to also help and match homeless people with housing options that are registered in a database.
+Another planned function is to have a specific housing service implemented to also help and match people without adequate living conditions, with housing options that are registered in a database. The idea is to connect all kinds of housing-first kinda initiatives -- that is, providing housing first so that individuals *then* can take steps to get their life sorted. https://www.centreforpublicimpact.org/case-study/eradicating-homelessness-finland-housing-first-programme
+
+A report is being written that documents the process of planning and building the web platform.
+
+More creative ideas for platform functions:
+* Messaging from admins that look for matches between profiles
+* AI that can help with providing matches
+* Blog platform for promotion, success stories, articles about evidence-based methods
 
 Frontend: React + Axios
 Backend: Spring Boot
 Database: MySQL
 
-Planning Tool: Jira
+Planning Tool: Azure DevOps
 
 Design prototyping: Figma
