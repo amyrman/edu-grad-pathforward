@@ -4,12 +4,25 @@ A Graduation project implementing everything from planning to programming and de
 
 The plan is a web platform with the purpose to give meaning to those that need it most -- people who are unemployed, through matching their skills and interests with suitable social initiatives and companies.
 
+Values:
+Simplicity - focus on the important actions and call to actions when implementating
+Speed - slick and responsive interface as well as organization
+Security - secure with encryption, hash etc
+Effective - evidence-based and systematically followed up
+
+Put trust into peoples own capabilities
+Empowering people
+Subject-subject relationships
+Face-to-face
+
 Another planned function is to have a specific housing service implemented to also help and match people without adequate living conditions, with housing options that are registered in a database. The idea is to connect all kinds of housing-first kinda initiatives -- that is, providing housing first so that individuals *then* can take steps to get their life sorted. https://www.centreforpublicimpact.org/case-study/eradicating-homelessness-finland-housing-first-programme
 
 A report is being written that documents the process of planning and building the web platform.
 
 More creative ideas for platform functions:
-* Messaging from admins that look for matches between profiles
+* Messaging e.g. from case workers -> applying users about possible matches
+* Integrated calendar view, e.g. for booked video meetings with meeting links
+* The ability for users and admins to plan meet-ups (mainly focused on building peer-to-peer support)
 * AI that can help with providing matches
 * Blog platform for promotion, success stories, articles about evidence-based methods
 
