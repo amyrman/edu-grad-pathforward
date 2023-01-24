@@ -5,10 +5,10 @@ A Graduation project implementing everything from planning to programming and de
 The plan is a web platform with the purpose to give meaning to those that need it most -- people who are unemployed, through matching their skills and interests with suitable social initiatives and companies.
 
 Values:
-Simplicity - focus on the important actions and call to actions when implementating
-Speed - slick and responsive interface as well as organization
-Security - secure with encryption, hash etc
-Effective - evidence-based and systematically followed up
+* Simplicity - focus on the important actions and call to actions when implementating
+* Speed - slick and responsive interface as well as organization
+* Security - secure with encryption, hash etc
+* Effective - evidence-based and systematically followed up
 
 Put trust into peoples own capabilities
 Empowering people
