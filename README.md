@@ -21,7 +21,7 @@ Another planned function is to have a specific housing service implemented to al
 * Frontend: React + Axios
 * Backend: Spring Boot
 * Database: MySQL
-* Planning Tool: Azure DevOps
+* Planning: Azure DevOps
 * Design: Figma
 
 A report is being written that documents the process of planning and building the web platform.
