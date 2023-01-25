@@ -4,7 +4,7 @@ A Graduation project implementing everything from planning to programming and de
 
 The plan is a web platform with the purpose to give meaning to those that need it most -- people who are unemployed, through matching their skills and interests with suitable social initiatives and companies.
 
-Values:
+### Values
 * Simplicity - focus on the important actions and call to actions when designing and implementing
 * Speed - slick and responsive interface as well as organization
 * Security - secure with encryption, hash etc
@@ -17,8 +17,16 @@ Face-to-face
 
 Another planned function is to have a specific housing service implemented to also help and match people without adequate living conditions, with housing options that are registered in a database. The idea is to connect all kinds of housing-first kinda initiatives -- that is, providing housing first so that individuals *then* can take steps to get their life sorted. https://www.centreforpublicimpact.org/case-study/eradicating-homelessness-finland-housing-first-programme
 
+### Tools
+* Frontend: React + Axios
+* Backend: Spring Boot
+* Database: MySQL
+* Planning Tool: Azure DevOps
+* Design: Figma
+
 A report is being written that documents the process of planning and building the web platform.
 
+### Further Improvement Ideas
 More creative ideas for platform functions:
 * Messaging e.g. from case workers -> applying users about possible matches
 * Integrated calendar view, e.g. for booked video meetings with meeting links
@@ -26,8 +34,3 @@ More creative ideas for platform functions:
 * AI that can help with providing matches
 * Blog platform for promotion, success stories, articles about evidence-based methods
 
-* Frontend: React + Axios
-* Backend: Spring Boot
-* Database: MySQL
-* Planning Tool: Azure DevOps
-* Design: Figma
