@@ -26,10 +26,8 @@ More creative ideas for platform functions:
 * AI that can help with providing matches
 * Blog platform for promotion, success stories, articles about evidence-based methods
 
-Frontend: React + Axios
-Backend: Spring Boot
-Database: MySQL
-
-Planning Tool: Azure DevOps
-
-Design prototyping: Figma
+* Frontend: React + Axios
+* Backend: Spring Boot
+* Database: MySQL
+* Planning Tool: Azure DevOps
+* Design: Figma
