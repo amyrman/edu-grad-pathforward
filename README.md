@@ -6,12 +6,15 @@ The plan is a web platform with the purpose to give meaning to those that need i
 
 ## Setup (as of 23-01-31) a.k.a. "I guess actually deploying the app would have saved everyone some time, huh?"
 ### FIRST: For THE ULTIMATE FULLSTACK EXPERIENCE OF YOUR LIFE
-* **Setup MySQL-database, preferably with Docker**. **If you don't have it set up**, see "To setup Docker container" further down. **If you already have it set up**, create a database, e.g. through VS Code MySQL extension (https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-mysql-client2) and check that spring.datasource.* like port, username, password settings in <project-root-folder>\backend\src\main\resources\application.properties correspond with your MySQL settings.
-
-* To setup Docker container:
-* Download: https://www.docker.com/products/docker-desktop/
+#### Setup MySQL-database, preferably with Docker
+**If you don't have it set up:**
+* Download and install: https://www.docker.com/products/docker-desktop/
 * In terminal: ```docker run --name mysql -e MYSQL_ROOT_PASSWORD=secretpw -e 'MYSQL_ROOT_HOST=%' -e MYSQL_DATABASE=pathforward -e MYSQL_USER=user -e MYSQL_PASSWORD=password -p 3306:3306 -d mysql:latest```
 
+**If you already have it set up:**
+* Create a database, e.g. through VS Code MySQL extension (https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-mysql-client2
+* Check that spring.datasource.* like port, username, password settings in <project-root-folder>\backend\src\main\resources\application.properties correspond with your MySQL settings.
+  
 ### Then:
 1. Clone the repo
 2. Open terminal and from project root type in:
