@@ -33,4 +33,5 @@ More creative ideas for platform functions:
 * The ability for users and admins to plan meet-ups (mainly focused on building peer-to-peer support)
 * AI that can help with providing matches
 * Blog platform for promotion, success stories, articles about evidence-based methods
+* Gamification
 
