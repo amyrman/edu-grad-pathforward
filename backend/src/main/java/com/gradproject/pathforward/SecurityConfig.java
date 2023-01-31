@@ -37,7 +37,7 @@ public class SecurityConfig {
         .authorizeHttpRequests()
         .requestMatchers(HttpMethod.GET,
             "/users/**")
-        .anonymous()
+        .authenticated()
         .requestMatchers(HttpMethod.POST,
             "/users/**")
         .authenticated()
