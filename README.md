@@ -58,7 +58,7 @@ Another planned function is to have a specific housing service implemented to al
 A report is being written that documents the process of planning and building the web platform.
 
 ## Further Improvement Ideas
-More creative ideas for platform functions:
+More creative ideas regarding platform functions:
 * Messaging e.g. from case workers -> applying users about possible matches
 * Integrated calendar view, e.g. for booked video meetings with meeting links
 * The ability for users and admins to plan meet-ups (mainly focused on building peer-to-peer support)
