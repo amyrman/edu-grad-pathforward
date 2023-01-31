@@ -9,8 +9,8 @@ function Profile () {
   const [post, setPost] = React.useState();
 
   React.useEffect(() => {
-    axios.
-      get(baseURL, {
+    axios
+      .get(baseURL, {
         headers: {"Authorization": "Bearer [AUTH TOKEN]"}})
         .then((response) => {setPost(response.data);
     });
