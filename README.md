@@ -4,7 +4,7 @@ A Graduation project implementing everything from planning to programming and de
 
 The plan is a web platform with the purpose to give meaning to those that need it most -- people who are unemployed, through matching their skills and interests with suitable social initiatives and companies.
 
-## Run this way (as of 23-01-31):
+## Run this way (as of 23-01-31) a.k.a. "I guess actually deploying the app would have saved me some time, huh?":
 ### FIRST: For THE ULTIMATE FULLSTACK EXPERIENCE OF YOUR LIFE:
 * **Setup MySQL-database, preferably with Docker**. **If you don't have it set up**, see "To setup Docker container" further down. **If you already have it set up**, create a database, e.g. through VS Code MySQL extension (https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-mysql-client2) and check that spring.datasource.* like port, username, password settings in <project-root-folder>\backend\src\main\resources\application.properties correspond with your MySQL settings.
 
