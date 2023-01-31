@@ -19,14 +19,14 @@ The plan is a web platform with the purpose to give meaning to those that need i
 8. Bingo. React frontend should be opened automatically in browser.
 
 **To demonstrate fullstack functionality:**
-1. Login with username "test@test.nu, password "pass".
+1. Login with username "test@test.nu", password "pass".
 2. Nothing happens besides that you receive a token in dev-tools.
-3. Open dev tools (ctrl + shift + i), and select console
-4. Click "object", then "data", and right-click "access_token"
-5. "Copy string contents"
-6. Search for [AUTH TOKEN] in project
-7. Replace "[AUTH TOKEN]" with the token you copied
-8. User info from MySQL should now be seen in the React app
+3. Open dev tools (ctrl + shift + i), and select console.
+4. Click "object", then "data", and right-click "access_token".
+5. "Copy string contents".
+6. Search for "[AUTH TOKEN]" in project.
+7. Replace "[AUTH TOKEN]" with the token you copied during step 5.
+8. User info from MySQL should now be seen in the React app.
 ---
 ## Values
 * Simplicity - focus on the important actions and call to actions when designing and implementing
@@ -46,7 +46,7 @@ Another planned function is to have a specific housing service implemented to al
 * Backend: Spring Boot
 * Database: MySQL
 * Planning: Azure DevOps
-* Design: Figma
+* Design: Figma and Lucid Chart
 
 A report is being written that documents the process of planning and building the web platform.
 
