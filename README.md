@@ -53,7 +53,7 @@ Another planned function is to have a specific housing service implemented to al
 * Backend: Spring Boot
 * Database: MySQL
 * Planning: Azure DevOps
-* Design: Figma and Lucid Chart
+* Design: Figma and Lucidchart
 
 A report is being written that documents the process of planning and building the web platform.
 
