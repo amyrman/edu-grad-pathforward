@@ -6,16 +6,20 @@ The plan is a web platform with the purpose to give meaning to those that need i
 
 ## Run this way (as of 23-01-31):
 ### FIRST: For THE ULTIMATE FULLSTACK EXPERIENCE OF YOUR LIFE:
-* Setup MySQL-database, preferably with Docker. Create a database, e.g. through VS Code MySQL extension (https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-mysql-client2) and check that spring.datasource.* settings in <project-root-folder>\backend\src\main\resources\application.properties correspond with your MySQL settings.
+* Setup MySQL-database, preferably with Docker. **If you don't have it set up**, see "To setup Docker container" further down. **If you already have it set up**, create a database, e.g. through VS Code MySQL extension (https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-mysql-client2) and check that spring.datasource.* like port, username, password settings in <project-root-folder>\backend\src\main\resources\application.properties correspond with your MySQL settings.
+
+* To setup Docker container:
+* Download: https://www.docker.com/products/docker-desktop/
+* In terminal: ```docker run --name mysql -e MYSQL_ROOT_PASSWORD=secretpw -e 'MYSQL_ROOT_HOST=%' -e MYSQL_DATABASE=pathforward -e MYSQL_USER=user -e MYSQL_PASSWORD=password -p 3306:3306 -d mysql:latest```
 
 ### Then:
 1. Clone the repo
 2. Open terminal and from project root type in:
-3. cd backend
-4. mvn spring-boot:run
+3. ```cd backend```
+4. ```mvn spring-boot:run```
 5. Open new terminal and type in:
-6. cd ../frontend
-7. npm run start
+6. ```cd ../frontend```
+7. ```npm run start```
 8. Bingo. React frontend should be opened automatically in browser.
 
 **To demonstrate fullstack functionality:**
