@@ -11,6 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.gradproject.pathforward.entity.User;
 import com.gradproject.pathforward.service.UserService;
 
+// Besides what this is used for now -- that is, displaying a username and email, it could be used to handle CRUD operations, e.g.:
+// - Creating a user in the database when registering
+// - For the Dashboard to display user info
+// - For updating a users profile with PUT request
 
 @RestController
 @RequestMapping("/users")
