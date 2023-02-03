@@ -2,6 +2,7 @@ package com.gradproject.pathforward.controller;
 
 import java.util.List;
 
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -32,6 +33,13 @@ public class UserControllerTest {
     u2.setName("Another");
     u2.setId(2);
     Mockito.when(service.getUsers()).thenReturn(List.of(u1, u2));
+    Mockito.when(service.getUser(1L)).thenReturn(u1);
+    Mockito.when(service.getUser(3L)).thenReturn(null);
+  }
+
+  @AfterEach
+  void tearDown() {
+    Mockito.reset(service);
   }
 
   @Test
@@ -44,22 +52,22 @@ public class UserControllerTest {
     // Assert - Then: getUsers should return a list with users
   }
 
-  // @Test
-  // void testGetUser() {
-// should return one user and otherwise throw RuntimeException
+  @Test
+  void getUser_shouldReturnCorrectUser() {
+    User result = controller.getUser(1L);
+    assertThat(result.getId()).isEqualTo(1L);
+    assertThat(result.getName()).isEqualTo("Test");
   }
 
-  // @Test
-  // void testCreateUser() {
+  @Test
+  void getUser_shouldReturnNullIfNoUserFound() {
+    User result = controller.getUser(3L);
+    assertThat(result).isNull();
+  }
 
-  // }
-
-  // @Test
-  // void testUpdateUser() {
-
-  // }
-  
-  // @Test
-  // void testDeleteUser() {
-
-  // }
+  @Test
+  void getUser_shouldCallGetUserOnService() {
+    controller.getUser(1L);
+    Mockito.verify(service, Mockito.times(1)).getUser(1L);
+  }
+}
