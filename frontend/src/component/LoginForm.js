@@ -5,8 +5,8 @@ import axios from "axios";
 import "../css/LoginForm.css";
 
 const LoginForm = () => {
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+  const [username, setUsername] = useState(null);
+  const [password, setPassword] = useState(null);
 
   const handleSubmit = (event) => {
     event.preventDefault();

@@ -6,7 +6,7 @@ import "../css/Profile.css";
 function Profile () {
   
   const baseURL = "http://localhost:8080/users/1";
-  const [post, setPost] = React.useState();
+  const [post, setPost] = React.useState(null);
 
   React.useEffect(() => {
     axios
