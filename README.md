@@ -4,7 +4,7 @@ A Graduation project implementing everything from planning to programming and de
 
 The plan is a web platform with the purpose to give meaning to those that need it most -- people who are unemployed, through matching their skills and interests with suitable social initiatives and companies.
 
-## Setup (as of 23-01-31) a.k.a. "I guess actually deploying the app would have saved everyone some time, huh?"
+## Setup (as of 23-01-31)
 ### FIRST: For THE ULTIMATE FULLSTACK EXPERIENCE OF YOUR LIFE
 #### Setup MySQL-database, preferably with Docker
 **If you don't have it set up:**
